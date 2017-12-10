@@ -1,74 +1,100 @@
 <html>
-<title>web page</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {font-family: "verdana", sans-serif}
-.mySlides {display: none}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
+<body class="w3-light-grey">
 
-<body>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a href="#about me" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT ME</a>
-    <a href="#trip" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TRIP</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-      </div>
-    </div>
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
     
-<div class="w3-content" style="max-width:2000px;margin-top:50px"></div>
-
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about me">
-    <h2 class="w3-wide">ABOUT ME</h2>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-first">
-        <img src=“me.jpg" alt=“myphoto” style="width:100%">
-      </div>
-    </div>
-    <p class="w3-justify">My name is Yang Rong and I am currently study at University of Illinois at Urbana Champaign. My major is System Engineering & Design.</p>
-  </div>
-
-  <div class="w3-black" id="trip">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">My Trip</h2>
-      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-        <div class="w3-third w3-margin-bottom">
-  	<img src=“Lv.jpg" alt=“LasVegas” style="width:100%">
-          <div class="w3-container w3-white">
-            <p><b>LAS Vegas</b></p>
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Yang Rong</h2>
           </div>
         </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="UK.jpg" alt=“England” style="width:100%">
-          <div class="w3-container w3-white">
-            <p><b>England</b></p>
+        <div class="w3-container">
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Illinois, US</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>yr2@illinois.edu</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1(410)972-5392</p>
+          <hr>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Interest</b></p>
+          <p>Travel</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
           </div>
+          <p>Sport</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <br>
         </div>
-        <div class="w3-third w3-margin-bottom">
-	<img src=“havana1.jpg" alt=“Havana” style="width:100%">
-          <div class="w3-container w3-white">
-            <p><b>Havana</b></p>
-      </div>
-    </div>
-  </div>
-   </div>
+      </div><br>
+
+    <!-- End Left Column -->
     </div>
 
-
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Illinois, US<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +1 (410) 972-5392<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: yr2@illinois.edu<br>
+    <!-- Right Column -->
+    <div class="w3-twothird">
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Sandy Spring Friends School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2012-2016</h6>
+          <p>Great High School!</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>University of Illinois at Urbana-Chamapign</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Major in System Engineering of Design</p>
+          <hr>
+        </div>
       </div>
-     </div>
+      
+ <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Travel </h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Paris</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2015</h6>
+          <p>Wonderful trip experience</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Cancun</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2016</h6>
+          <p>Love mexico food</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Havana</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2017</h6>
+          <p>Greaet vehicles!! </p><br>
+        </div>
+      </div>
+
     </div>
     
+
+  </div>
+  
+
+</div>
+
+
 </body>
 </html>
